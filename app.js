@@ -14,7 +14,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://backend-production-ef14.up.railway.app/",
     credentials: true,
   })
 );
