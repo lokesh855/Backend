@@ -14,7 +14,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://backend-production-ef14.up.railway.app/",
+    origin: "https://multi-tenant-saa-s-platform.vercel.app/",
     credentials: true,
   })
 );
