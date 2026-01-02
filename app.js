@@ -14,7 +14,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: "https://multi-tenant-saa-s-platform.vercel.app/",
+    origin: "*",
     credentials: true,
   })
 );
